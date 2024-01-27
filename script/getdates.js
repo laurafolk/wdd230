@@ -1,4 +1,4 @@
-let currentYear = new Date().getFullYear();
-yearElement.textContent = `${currentYear}`;
+let currDate = new Date();
 
-alert(document.lastModified);
+document.querySelector("#updated").textContent = "Last updated: "+ currDate.toLocaleString();
+document.querySelector("#year").textContent = "©"+ currDate.getFullYear()+"\n" + "Laura M. Folk" +"\n" + "United States";

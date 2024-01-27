@@ -1,5 +1,6 @@
 h1 {
-    float: right;
+    display: grid;
+    grid-template: auto;
   }
   
 /* added on 01-22-24 */
