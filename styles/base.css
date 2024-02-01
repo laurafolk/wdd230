@@ -7,6 +7,7 @@ header {
     max-width: 750px;
     display: grid;
     grid-template-columns: auto auto;
+    grid-template-rows: 1fr, 1fr;
     align-items: center;
     margin: 0 auto;
     font-family: 'Roboto';
@@ -61,7 +62,7 @@ h3 {
 
 .card {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr;
     background-color: #ACC835;
     padding: 15px;
     margin-bottom: 20px;
@@ -72,7 +73,7 @@ h3 {
 }
 
 .responsive {
-    max-width: 200px;
+    max-width: 35%;
     height: auto;
   }
 
