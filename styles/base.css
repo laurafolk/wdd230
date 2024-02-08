@@ -4,15 +4,16 @@ body {
 }
 
 header {  
-    max-width: 765px;
+    max-width: 800px;
     /* display: grid; */
     display: flex;
     /* grid-template-columns: auto auto;
     grid-template-rows: auto auto; */
     /* align-items: center; */
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 0 auto;
     font-family: 'Roboto';
+    font-size: 1rem;
     /* text-align: center; */
     background-color: #ACC835;
     color: #070707;
@@ -20,7 +21,7 @@ header {
 }
 /* added on 01-22-24 */
 nav {
-    max-width: 765px;
+    max-width: 800px;
     /* display: grid; */
     display: flex;
     margin: 0 auto;
@@ -36,7 +37,7 @@ header nav ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
 }
 /* added on 01-22-24 */
 nav li {
@@ -59,9 +60,10 @@ main {
     gap: 20px;
 }
 
-h1 {
+/* h1 {
     font-size: 2rem;
-}
+} */
+
 h2 {
     text-decoration: underline;
     text-align: center;
@@ -98,13 +100,15 @@ h3 {
   }
 
 footer {
-    max-width: 765px;
-    display: grid;
+    max-width: 800px;
+    /* display: grid; */
     margin: 0 auto;
     background-color: #ACC835;
     color: #070707;
     text-align: center;
+    font-size: 1.5rem;
     padding: 10px;
+    border: 0%;
 }
 
 
