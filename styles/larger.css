@@ -3,13 +3,12 @@
         display: none;
     } */
     nav {
-        flex-direction: row;
-    }
-    nav ul {
         display: flex;
+        justify-content: center;
     }
+
     nav a {
-        display: block;
+        flex: 1;
     }
     main {
         grid-template-columns: 1fr 1fr;
