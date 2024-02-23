@@ -6,11 +6,11 @@ body {
 }
 /* Header Styles */
 header {  
-    max-width: 800px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     font-family: 'Roboto';
     font-size: 1rem;
     background-color: #ACC835;
@@ -104,14 +104,16 @@ main h2 {
   }
 /* Footer Styles */
 footer {
-    max-width: 800px;
+    /* max-width: 800px; */
     /* display: grid; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    display: inline-block;
     background-color: #ACC835;
     color: #070707;
     text-align: center;
     font-size: 1.5rem;
-    padding: 10px;
+    width: 100%;
+    /* padding: 10px; */
 }
 
 
