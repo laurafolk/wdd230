@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Merienda&display=swap');
+
+body {
+    font-family: 'Crimson', sans-serif;
+}
+
+head {
+    display: none;
+}
+
+header {  
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Crimson';
+    font-size: 1rem;
+    background-color: #ACC835;
+    color: #070707;
+    padding: 1rem;
+}
+
+main {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0% auto;
+    grid-gap: 1rem;
+    grid-auto-rows: max-content;
+}
+
+.card {
+    border: 1.5px solid #070707;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px auto;
+    margin-top: 10px;
+}
+
+.card > h3 {
+    background-color: #ACC835;
+    color: #070707;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    margin: 0%;
+    padding-top: 10px;
+    font-size: x-large;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section {
+    background-color: white;
+    display: block;
+}
+
+footer {
+    display: inline-block;
+    background-color: #ACC835;
+    color: #070707;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+}
