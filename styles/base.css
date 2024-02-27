@@ -1,8 +1,8 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Merienda&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Merienda&display=swap');
 
 /* added on 01-22-24 */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Crimson', sans-serif;
 }
 /* Header Styles */
 header {  
@@ -11,7 +11,7 @@ header {
     align-items: center;
     justify-content: space-evenly;
     /* margin: 0 auto; */
-    font-family: 'Roboto';
+    font-family: 'Crimson';
     font-size: 1rem;
     background-color: #ACC835;
     color: #070707;
