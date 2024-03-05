@@ -1,0 +1,9 @@
+@media screen and (min-width: 1000px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .card:last-of-type {
+    grid-column: 1/3;
+  }
+}
