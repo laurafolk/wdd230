@@ -106,7 +106,7 @@ main h2 {
 footer {
     /* max-width: 800px; */
     /* display: grid; */
-    /* margin: 0 auto; */
+    margin: 0 auto;
     display: inline-block;
     background-color: #ACC835;
     color: #070707;
